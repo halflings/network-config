@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/VMs/Lin-Erp/launch.sh
+/VMs/Lin-ERP/launch.sh
