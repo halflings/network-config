@@ -1,6 +1,6 @@
 #!/bin/bash
 
-/VMs/Lin-wrksta/launch.sh
+/VMs/lin-wrksta/launch.sh
 /VMs/Lin-proxy/launch.sh
 /VMs/portable-nomade/launch.sh
 /VMs/Client-Atelier-Site1/launch.sh
