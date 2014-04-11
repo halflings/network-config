@@ -1,0 +1,15 @@
+$ORIGIN 0.168.192.in-addr.arpa.
+$TTL 1h
+
+atelier.central.c.tp4if. IN SOA  Lin-centreon.central.c.tp4if. juliette.courlet.insa-lyon.fr. (
+	201404201
+	1h
+	1h
+	4w
+	1h
+	)
+
+192.168.0.2 PTR mcn-site-1-1
+192.168.0.3 PTR mcn-site-1-2
+192.168.0.4 PTR Lin-wrksta
+192.168.0.5 PTR Client-Atelier-Site1
