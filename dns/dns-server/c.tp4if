@@ -1,0 +1,26 @@
+$ORIGIN c.tp4if.
+$TTL 1h
+
+c.tp4if. IN SOA  Lin-centreon.c.tp4if. juliette.courlet.insa-lyon.fr. (
+	2015050501
+	1h
+	1h
+	4w
+	1h
+	)
+
+c.tp4if. NS Lin-centreon.c.tp4if.
+c.tp4if. NS Win-DNS-DHCP.c.tp4if.
+Lin-centreon.c.tp4if. A 192.168.1.2
+Win-DNS-DHCP.c.tp4if. A 192.168.4.3
+
+central.c.tp4if. NS Lin-centreon.central.c.tp4if.
+central.c.tp4if. NS Win-DNS-DHCP.central.c.tp4if.
+Lin-centreon.central.c.tp4if. A 192.168.1.2
+Win-DNS-DHCP.central.c.tp4if. A 192.168.4.3
+
+distant.c.tp4if. NS Lin-centreon.distant.c.tp4if.
+distant.c.tp4if. NS Win-DNS-DHCP.distant.c.tp4if.
+Win-DNS-DHCP.distant.c.tp4if. A 192.168.4.3
+Lin-centreon.distant.c.tp4if. A 192.168.1.2
+
