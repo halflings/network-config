@@ -1,0 +1,28 @@
+VPN:
+General:
+	SiteToSite
+	Shared secret
+	coucouVPN
+	Destination: 10.0.9.33
+	Password: coucou
+Network:
+	Local network
+		centralNetwork
+		LAN
+		Range
+		192.168.0.0
+		192.168.2.255
+	Remote network
+		distantNetwork
+		LAN
+		Range
+		192.168.3.0
+		192.168.5.255
+	Advanced
+		Keep alive
+		Checkboxes
+
+Faire la même config symétrique de l'autre côté:
+	Destination: 10.0.9.18
+	Inverser local et remote network
+	
