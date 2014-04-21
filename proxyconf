@@ -1,0 +1,12 @@
+ProxyPreserveHost On
+ProxyRequests Off
+
+<Location /ecommerce>
+    ProxyPass http://192.168.1.3:8080/ecommerce
+    ProxyPassReverse http://192.168.1.3:8080/ecommerce
+</Location>
+
+<Location /images>
+    ProxyPass http://192.168.1.3:8080/images
+    ProxyPassReverse http://192.168.1.3:8080/images
+</Location>
